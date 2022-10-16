@@ -1,0 +1,15 @@
+.aside {
+    font-family: 'Crimson Text', serif;
+    width: 80%;
+    border: 1px none black;
+    box-shadow: 0px 0px 12px grey;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.aside__address {
+    text-align: right;
+}
+

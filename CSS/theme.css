@@ -1,0 +1,75 @@
+.theme__changeButton {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    border-radius: 0 0 30% 30%;
+    border-style: none ridge ridge ridge;
+    border-width: 2px;
+    box-shadow: 0px 0px 12px grey;
+    padding: 25px;
+}
+
+.theme__changeButton:hover {
+    margin-top: 20px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 12px rgb(0, 255, 13);
+    cursor: pointer;
+
+}
+
+.theme__Box {
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    right: 20%;
+    width: 60%;
+    border: 2px solid black;
+    background-color: rgba(190, 190, 190, 0.904);
+    box-shadow: 10px 10px 12px grey;
+    padding: 20px;
+    z-index: 2;
+
+}
+
+.theme__button {
+    padding: 25px;
+    box-shadow: 0px 0px 12px black;
+    border-radius: 50%;
+    border: 2px solid rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.theme__white {
+    background-color: white;
+}
+
+.theme__dark {
+    background-color: rgb(83, 82, 82);
+}
+
+.theme__neon {
+    background-color: rgb(0, 255, 55);
+}
+
+.theme__white:hover {
+    box-shadow: 0px 0px 12px white;
+
+}
+
+.theme__dark:hover {
+    box-shadow: 0px 0px 12px rgb(83, 82, 82);
+}
+
+.theme__neon:hover {
+    box-shadow: 0px 0px 12px rgb(0, 255, 55);
+}
+
+.theme__centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.theme__box--hide {
+    display: none;
+}
