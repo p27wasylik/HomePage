@@ -1,4 +1,7 @@
 .table{
+    margin-bottom:250px;
+}
+.table__div{
     overflow-x: scroll;
 }
 .table__jobs {
@@ -31,7 +34,8 @@
 .table__caption {
     caption-side: bottom;
     text-align: right;
-    color: red;
+    color: teal;
+    padding:5px;
 }
 
 .table__title {

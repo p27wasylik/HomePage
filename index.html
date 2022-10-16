@@ -34,18 +34,18 @@
 <body class="body body--White js-body">
     <header class="header">
         <img class="header__image" src="IMAGES/me.jpg" alt="Adrian Wasylik">
-        <p class="header__logoName">Adrian Wasylik</p>
+        <span class="header__logoName">Adrian Wasylik</span>
     </header>
     <nav class="nav">
         <ul class="nav__List">
             <li class="nav__listItem"><a class="nav__link" href="#aboutMe">O mnie</a></li>
             <li class="nav__listItem"><a class="nav__link" href="#myHobby">Moje Hobby</a></li>
-            <li class="nav__listItem"><a class="nav__link" href="#contact">Kontakt</a></li>
             <li class="nav__listItem"><a class="nav__link" href="#jobs">Praca</a></li>
         </ul>
     </nav>
     <main class="main">
-        <button class="theme__changeButton theme_changeButton--white js-themeChangeButton"><strong>Zmień Motyw</strong></button>
+        <button class="theme__changeButton theme_changeButton--white js-themeChangeButton"><strong>Zmień
+                Motyw</strong></button>
         <section class="theme__Box theme__box--hide js-themeBox">
             <p class="theme__centered">Wybierz Motyw</p>
             <div class="theme__centered">
@@ -57,7 +57,7 @@
 
         <aside class="aside">
             <fieldset>
-                <legend>Ulubiony Cytat</legend>
+                <legend class="aside__legend">Ulubiony Cytat</legend>
                 <q><i>Szczęśliwe życie zależy od jakości twoich myśli.</i></q>
                 <address class="aside__address"> ~ Marek Aureliusz</address>
             </fieldset>
@@ -83,40 +83,51 @@
             <p>Od najmłodszych lat głęboko interesowała mnie gitara. Często doprowadzałem swoje palce do płaczu, kiedy
                 uczyłem się grać na niej. Ale to nie gitara spędzała mi sen z powiek przez długie lata a właśnie moje
                 <b>prawdziwe</b> hobby, którym jest <strong>tworzenie</strong>. Od dziecka umiłowałem sobie kreowanie
-                wszystkiego. Strugałem w drewnie, tworzyłem <abbr
-                    title="Life Action Role Play">LARP'y</abbr>, pisałem piosenki, opowieści aż wreszcie, zacząłem
+                wszystkiego. Strugałem w drewnie, tworzyłem <abbr title="Life Action Role Play">LARP'y</abbr>, pisałem
+                piosenki, opowieści aż wreszcie, zacząłem
                 pisać
                 strony internetowe.
             </p>
         </article>
 
         <section class="table" id="jobs">
-            <h2 class="table_title">Praca</h2>
-            <img src="IMAGES/jobs.png" width="40px">
-            <table class="table__jobs">
-                <caption class="table__caption">Historia Zawodowa</caption>
-                <tr class="table__Row">
-                    <th scope="col" class="table__cell table__header">Czasookrs</th>
-                    <th scope="col" class="table__cell table__header">Miejsce pracy</th>
-                    <th scope="col" class="table__cell table__header">Stanowisko</th>
-                </tr>
-                <tr class="table__row">
-                    <th scope="row" class="table__cell table__header">2009-20013</th>
-                    <td class="table__cell">T&T Dystrybucja</td>
-                    <td class="table__cell">Kierowca/Konwojent</td>
-                </tr>
-                <tr class="table__row">
-                    <th scope="row" class="table__cell table__header">2014-Obecnie</th>
-                    <td class="table__cell">Urząd Miasta w Siechnicach</td>
-                    <td class="table__cell">Strażnik Miejski</td>
-                </tr>
-            </table>
+            <div class="table_div">
+                <h2 class="table_title">Praca</h2>
+                <img src="IMAGES/jobs.png" width="40px">
+                <table class="table__jobs">
+                    <caption class="table__caption">Historia Zawodowa</caption>
+                    <tr class="table__Row">
+                        <th scope="col" class="table__cell table__header">Czasookrs</th>
+                        <th scope="col" class="table__cell table__header">Miejsce pracy</th>
+                        <th scope="col" class="table__cell table__header">Stanowisko</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell table__header">2009-20013</th>
+                        <td class="table__cell">T&T Dystrybucja</td>
+                        <td class="table__cell">Kierowca/Konwojent</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell table__header">2014-Obecnie</th>
+                        <td class="table__cell">Urząd Miasta w Siechnicach</td>
+                        <td class="table__cell">Strażnik Miejski</td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </main>
     <footer class="footer" id="contact">
         <h3>Znajdziesz mnie</h3>
-        <p>na <a class="footer__link" href="https://www.facebook.com/adrian.wasylik" target="_blank">FaceBook'u</a><br>
-            lub<br> możesz napisać <a href="mailto:p27wasylik@gmail.com">p27wasylik@gmail</a></p>
+        <span class="footer__span">
+            <a class="footer__a" href="#aboutMe">O mnie</a>
+        </span>
+        <span class="footer__span">
+            <a class="footer__a" href="#myHobby">Moje Hobby</a>
+        </span>
+        <span class="footer__span">
+            <a class="footer__a" href="#jobs">Praca</a>
+        </span>
+        <p><a class="footer__link" href="https://www.facebook.com/adrian.wasylik" target="_blank">na FaceBook'u</a><br>
+            lub<br> możesz napisać <br><a href="mailto:p27wasylik@gmail.com">p27wasylik@gmail</a></p>
     </footer>
 </body>
 

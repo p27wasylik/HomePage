@@ -2,7 +2,7 @@
     font-family: 'Crimson Text', serif;
     width: 80%;
     border: 1px none black;
-    box-shadow: 0px 0px 12px grey;
+    box-shadow: 2px 2px 12px grey;
     margin-right: auto;
     margin-left: auto;
     padding: 25px;
@@ -13,3 +13,8 @@
     text-align: right;
 }
 
+.aside__legend{
+    text-align:left;
+    color:black;
+    text-shadow:0px 0px 6px teal;
+}

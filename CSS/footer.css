@@ -1,13 +1,39 @@
 .footer {
-    background-color: teal;
+    position:fixed;
+    bottom:0px;
+    width:96%;
+    left:2%;
+    right:2%;
+    background-color: rgba(0, 128, 128, 0.95);
     color:white;
     text-align: center;
-    margin-top: 200px;
-    border-top-style: solid;
-    border-width: 2px;
+    border-style: solid solid none solid;
+    border-width: 4px;
+    border-color:black;
     padding: 15px;
+    margin-bottom:-150px;
+}
+
+.footer:hover{
+    margin:0px;
 }
 
 .footer__link:visited {
     color: blue;
+}
+
+.footer__span{
+    padding:5px;
+    background-color:teal;
+    box-shadow:0px 0px 8px blue;
+    margin-right:10px;
+}
+
+.footer__span:hover{
+    box-shadow:0px 0px 8px black;
+}
+
+.footer__a{
+    color:black;
+    text-decoration:none;
 }
