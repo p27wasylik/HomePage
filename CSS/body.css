@@ -31,5 +31,6 @@ html {
 .body__header {
     font-family: 'Crimson Text', serif;
     padding: 50px;
+    text-align:center;
 }
 

@@ -22,18 +22,24 @@ console.log(buttonThemeNeon);
 buttonThemeWhite.addEventListener("click", () => {
     body.classList.add("body--white");
     body.classList.remove("body--dark", "body--neon");
+    buttonThemeChange.classList.add("theme_changeButton--white");
+    buttonThemeChange.classList.remove("theme_changeButton--dark", "theme_changeButton--neon");
     buttonThemeChange.innerHTML = "Zmień motyw <br>Motyw Biały";
 })
 
 buttonThemeDark.addEventListener("click", () => {
     body.classList.add("body--dark");
     body.classList.remove("body--white", "body--neon");
+    buttonThemeChange.classList.add("theme_changeButton--dark");
+    buttonThemeChange.classList.remove("theme_changeButton--white", "theme_changeButton--neon");
     buttonThemeChange.innerHTML = "Zmień motyw <br>Motyw Ciemny";
 })
 
 buttonThemeNeon.addEventListener("click", () => {
     body.classList.add("body--neon");
     body.classList.remove("body--white", "body--Dark");
+    buttonThemeChange.classList.add("theme_changeButton--neon");
+    buttonThemeChange.classList.remove("theme_changeButton--white", "theme_changeButton--dark");
     buttonThemeChange.innerHTML = "Zmień motyw <br>Motyw Neon";
 })
 
